@@ -147,6 +147,8 @@ Publish the website in the LocalHost.
 
 
 ## OUTPUT:
+
+
 ![Untitled design](https://github.com/user-attachments/assets/1141ec32-d709-4e07-bf0c-b9ad2abd9639)
 
 
