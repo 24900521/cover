@@ -31,125 +31,81 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-family: 'Georgia', serif;
-            background linear-gradient(135deg, #f3e5ab, #e8d094);
-           
-        }
-        .book-cover {
-            width: 470px;
-            height: 650px;
-            background-image: url('bg.png');
-            border: 4px solid brown;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            padding: 30px;
-            text-align: center;
-        }
-        .title {
-            font-size: 50px;
-            font-weight:bolder;
-            color: #ffffff;
-            font-family: "BankGothic MD BT";
-            background-color: rgb(134, 2, 28); opacity: 100%;
-        }
-        .author {
-            font-size: 29px;
-            margin-top 10px;
-            color:black;
-            background: linear-gradient(to right,rgb(255, 2255, 255, 0.5),rgb(134, 2, 28, 0.5));
-            font-family: "Times New Roman";
-            font-weight: 900;
-            text-align: right;
-        }
-        .image{
-            width: 100px; text-align: center;
-        }
-        .Author{
-            
-            width: 100px;
-           float: right; 
-        }
-        .images{
-            display: flex;
-            width: 5px;
-        }
-        .about{
-            letter-spacing: 2px;
-            color: black;
-            font-weight: 400;
-            background-color: white; opacity: 100%;
-        }
-        .publisher {
-            font-size: 18px;
-            color: #6b4f3f;
-        }
-        .cover-design {
-            margin-top: 0px;
-            background-image: url('author.png');
-            background-size: cover;
-            background-position: center;
-            height: 210px;
-            border: 1px solid #b5651d;
-        }
-        .about2{
-            font-weight: 200;
-            font-style: italic;
-            background-color: white;opacity:100%;
-        }
-        .about2sub{
-            letter-spacing: 1px;
-            font-weight: 500;
-            font-size:medium;
-            background-color: white;opacity:100%;
-        }
-        .footer {
-            font-size: 14px;
-            margin-top: 0px;
-            color: whitesmoke;
-            font-family: "Caveat", cursive;
-            justify-content: center;
-            width: 470px;
-            height: 20px;
-            background-color: rgb(134, 2, 28); opacity: 90%;
-}
-    </style>
-</head>
-<body>
+<title>Book cover page</title>
 
-    <div class="book-cover">
-        <div class="title">BASICS OF PYTHON PROGRAMMING</div>
-        <div class="author"> ~GUIDO VAN ROSSUM</div>
+```
+<style>
+    body {
+        background-size: 494px;
+        background-image: url('bake.jpg');
+        background-position:center;
+        width: 400px;
+        height: 650px;
+        margin-left: auto;
+        margin-right: auto;
         
-        <div class="cover-design"></div>
-        <div class="about">LESSONS FOR BEGINNERS TO PROFESSIONALS </div>
-        <h3 class="about2">"Programming is not a science.Its a CRAFT" </h3>
-        <h2 class="about2sub">-RICHARD STALLMAN </h2>
-        <div class="footer">Best Selling Book for PYTHON PRG</div>
-    </div>
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-repeat: no-repeat;
+    }
 
-</body>
-</html
+    h1 {
+        text-align: center;
+        color: black;
+    } 
+    .imge > img {
+        height: 250px;
+        width: 250px;
+        float: right;
+    }.word{
+        padding-top: 2cm;
+        padding-left:1 ;
+    }
+    .iyal{
+        padding-left: 8cm;
+        margin: top 20px;;
+    }
+    .second-image{
+        border: 5px solid #336699; /* Set the border width, style, and color */
+        border-radius: 8px;
+        border-color:orangered;
+        float: left;
+    }
+     .last{
+  text-align: left;
+  padding-right:270px;
+  padding-bottom: 40x;
+  margin-bottom:100px;
+
+}
+</style>
 ```
+SEC INSITE
+```
+<h1><b>Full Stack Development<br><br>
+    For beginners</b></h1>
+<div class="imge">
+    <img src="./cov5.webp"  alt="">
+</div>
+<div class="word">
+    <h3>
+        <ul> <li>Front end</li>
+            <br>
+            <li>Back end</li>
+            <br>
+            <li>Database</li>
+        </ul>
+    </h3>
+</div>
+<div class="iyal"><img class="second-image" src="./,...jpg" alt="" height="100" width="80" allign="right">
 
+</div>
 
+<div class="last"><h1>Vignesh V</h1>
+</div>
+```
 ## OUTPUT:
 
-
-![Untitled design](https://github.com/user-attachments/assets/1141ec32-d709-4e07-bf0c-b9ad2abd9639)
+![Add a subheading](https://github.com/user-attachments/assets/60b0ccd1-959d-4a0d-b403-aaed15c3d656)
 
 
 ## RESULT:
